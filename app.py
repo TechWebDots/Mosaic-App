@@ -7,7 +7,7 @@ from vipas import model
 from vipas.exceptions import UnauthorizedException, NotFoundException
 
 def predict_image(input_data):
-    model_id = "mdl-iobw9z93jofy4"
+    model_id = "mdl-972r3z1gxmj53"
     vps_model_client = model.ModelClient()
     response = vps_model_client.predict(model_id=model_id, input_data=input_data)
     return response
